@@ -9,6 +9,11 @@ body{
     color: white;
 }
 
+.alap{
+    width: 100%;
+    margin: auto;
+}
+
 header{
     background-image: url("img/hatter.jpg");
     background-size: cover;
@@ -54,14 +59,20 @@ footer{
     padding: 20px;
 }
 
-@media only screen and (min-width: 1500px){
-    /*Nagy asztali*/
+@media only screen and (min-width: 1300px){
+    .alap{
+        width: 1300px;
+    }
+}
+
+@media only screen and (min-width: 800px){
+    /*Asztali*/
     header{
         padding: 100px 0px;
     }
+
     .menu li{
-        padding-left: 20px;
-        padding-right: 20px;
+        width: 200px;
     }
 
     .col-1 {width: 8.33%;}
@@ -78,10 +89,11 @@ footer{
     .col-12 {width: 100%;}
 }
 
-@media only screen and (min-width: 800px) and (max-width: 1499px){
-    /*Kis asztali*/
-    header{
-        padding: 100px 0px;
+@media only screen and (min-width: 500px) and (max-width: 799px){
+    /*Tablet*/
+    header h1{
+        text-align: center;
+        font-size: 3.7em;
     }
 
     .col-a-1 {width: 8.33%;}
@@ -98,11 +110,11 @@ footer{
     .col-a-12 {width: 100%;}
 }
 
-@media only screen and (min-width: 500px) and (max-width: 799px){
-    /*Tablet*/
+@media only screen and (max-width: 499px){
+    /*Telefon*/
     header h1{
         text-align: center;
-        font-size: 3.7em;
+        font-size: 2.5em;
     }
 
     .col-b-1 {width: 8.33%;}
@@ -117,25 +129,4 @@ footer{
     .col-b-10 {width: 83.33%;}
     .col-b-11 {width: 91.66%;}
     .col-b-12 {width: 100%;}
-}
-
-@media only screen and (max-width: 499px){
-    /*Telefon*/
-    header h1{
-        text-align: center;
-        font-size: 2.5em;
-    }
-
-    .col-c-1 {width: 8.33%;}
-    .col-c-2 {width: 16.66%;}
-    .col-c-3 {width: 25%;}
-    .col-c-4 {width: 33.33%;}
-    .col-c-5 {width: 41.66%;}
-    .col-c-6 {width: 50%;}
-    .col-c-7 {width: 58.33%;}
-    .col-c-8 {width: 66.66%;}
-    .col-c-9 {width: 75%;}
-    .col-c-10 {width: 83.33%;}
-    .col-c-11 {width: 91.66%;}
-    .col-c-12 {width: 100%;}
 }
