@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(16, 16, 85);
+    font-size: 20px;
+    color: white;
+}
+
+header{
+    background-image: url("img/hatter.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0px;
+}
+
+header h1{
+    padding-left: 20px;
+    background-color: rgba(16, 63, 85, 0.7);
+    font-size: 3.5em;
+    
+}
+
+.menu::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.menu, footer{
+    background-color: rgb(36,20,12);
+}
+
+.menu li{
+    font-size: 1.5em;
+    list-style-type: none;
+    float: left;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.menu li:hover{
+    background-color: rgb(75, 41, 25);
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(226, 105, 25);
+}
+
+footer{
+    padding: 20px;
+}
+
+
+@media only screen and (min-width: 800px){
+    /*Asztali*/
+    header{
+        padding: 100px 0px;
+    }
+
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 799px){
+    /*Tablet*/
+    header h1{
+        text-align: center;
+        font-size: 3.7em;
+    }
+
+    .col-a-1 {width: 8.33%;}
+    .col-a-2 {width: 16.66%;}
+    .col-a-3 {width: 25%;}
+    .col-a-4 {width: 33.33%;}
+    .col-a-5 {width: 41.66%;}
+    .col-a-6 {width: 50%;}
+    .col-a-7 {width: 58.33%;}
+    .col-a-8 {width: 66.66%;}
+    .col-a-9 {width: 75%;}
+    .col-a-10 {width: 83.33%;}
+    .col-a-11 {width: 91.66%;}
+    .col-a-12 {width: 100%;}
+}
+
+@media only screen and (max-width: 499px){
+    /*Telefon*/
+    header h1{
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    .col-b-1 {width: 8.33%;}
+    .col-b-2 {width: 16.66%;}
+    .col-b-3 {width: 25%;}
+    .col-b-4 {width: 33.33%;}
+    .col-b-5 {width: 41.66%;}
+    .col-b-6 {width: 50%;}
+    .col-b-7 {width: 58.33%;}
+    .col-b-8 {width: 66.66%;}
+    .col-b-9 {width: 75%;}
+    .col-b-10 {width: 83.33%;}
+    .col-b-11 {width: 91.66%;}
+    .col-b-12 {width: 100%;}
+}
