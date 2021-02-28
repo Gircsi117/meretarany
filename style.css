@@ -61,7 +61,6 @@ header h1{
 .tartalom h2{
     text-decoration: underline;
     padding-bottom: 15px;
-    padding-top: 10px;
 }
 
 .tartalom p{
@@ -97,6 +96,7 @@ header h1{
 .n-elem{
     width: 95%;
     margin: auto;
+    margin-top: 10px;
 }
 .n-elem ul{
     margin-left: 40px;
@@ -115,6 +115,16 @@ header h1{
 footer{
     padding: 20px;
     text-align: center;
+}
+
+#blizzard-logo{
+    width: 95%;
+    border-radius: 20px;
+}
+#kaszt-kep{
+    width: 50%;
+    border-radius: 20px;
+    float: right;
 }
 
 @media only screen and (min-width: 1365px){
