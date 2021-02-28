@@ -65,7 +65,7 @@ header h1{
 }
 
 .tartalom p{
-    text-align: justify;
+    text-align: left;
     padding: 2px;
 }
 
