@@ -151,8 +151,8 @@ footer{
     background-color: black;
 }
 
-.ikon-lec img{
-    padding: 15px;
+.icon-kep{
+    margin: 15px;
 }
 
 .faj{
@@ -275,6 +275,9 @@ footer{
     .frakcio img{
         padding: 0px;
         padding-bottom: 10px;
+    }
+    .icon-kep{
+        margin-bottom: 0px;
     }
 
     .col-b-1 {width: 8.33%;}
