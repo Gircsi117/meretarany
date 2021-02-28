@@ -40,7 +40,7 @@ header h1{
     width: 95%;
     margin: auto;
     text-align: center;
-    margin-bottom: px;
+    margin-bottom: 20px;
 }
 .e-elem h3{
     text-decoration: underline;
@@ -53,6 +53,18 @@ header h1{
 }
 
 .tartalom::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.frakcio::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.faj::after {
     content: "";
     clear: both;
     display: table;
@@ -92,6 +104,9 @@ header h1{
 .bal{
     float: left;
 }
+.jobb{
+    float: right;
+}
 
 .n-elem{
     width: 95%;
@@ -127,6 +142,37 @@ footer{
     float: right;
 }
 
+.frakcio{
+    width: 95%;
+    margin: auto;
+
+}
+.ikon-lec{
+    background-color: black;
+}
+
+.ikon-lec img{
+    padding: 15px;
+}
+
+.faj{
+    margin: 30px 0px;
+}
+
+.faj img{
+    float: left;
+    border-radius: 25%;
+    margin: 5px;
+    padding: 10px;
+}
+.faj p{
+    padding: 15px;
+}
+.faj h2{
+    text-align: center;
+    padding-bottom: 0px;
+}
+
 @media only screen and (min-width: 1365px){
     .alap{
         width: 1300px;
@@ -152,6 +198,9 @@ footer{
     }
     .erdekes{
         box-shadow: 1px 1px 5px black;
+    }
+    .faj{
+        width: 45%;
     }
 
     .col-1 {width: 8.33%;}
@@ -188,6 +237,11 @@ footer{
         margin-top: 10px;
     }
 
+    .frakcio img{
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+
     .col-a-1 {width: 8.33%;}
     .col-a-2 {width: 16.66%;}
     .col-a-3 {width: 25%;}
@@ -217,6 +271,10 @@ footer{
 
     .erdekes{
         margin-top: 10px;
+    }
+    .frakcio img{
+        padding: 0px;
+        padding-bottom: 10px;
     }
 
     .col-b-1 {width: 8.33%;}
