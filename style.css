@@ -31,6 +31,21 @@ header h1{
     
 }
 
+.erdekes h2{
+    padding: 5px 0px;
+    text-align: center;
+}
+
+.e-elem{
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: px;
+}
+.e-elem h3{
+    text-decoration: underline;
+}
+
 .menu::after {
     content: "";
     clear: both;
@@ -41,6 +56,25 @@ header h1{
     content: "";
     clear: both;
     display: table;
+}
+
+.tartalom h2{
+    text-decoration: underline;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.tartalom p{
+    text-align: justify;
+    padding: 2px;
+}
+
+.erdekes p{
+    text-align: center;
+}
+
+.tartalom a{
+    color: rgb(23, 181, 243);
 }
 
 .menu, footer{
@@ -58,6 +92,15 @@ header h1{
 
 .bal{
     float: left;
+}
+
+.n-elem{
+    width: 95%;
+    margin: auto;
+}
+.n-elem ul{
+    margin-left: 40px;
+    padding: 10px 0px;
 }
 
 .menu li:hover{
@@ -89,11 +132,13 @@ footer{
         padding: 100px 0px;
     }
     .menu li{
-        width: 200px;
+        width: 180px;
         box-shadow: 1px 1px 5px black;
     }
     .tartalom{
-        padding: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 15px;
     }
     .erdekes{
         box-shadow: 1px 1px 5px black;
@@ -122,6 +167,15 @@ footer{
     }
     .menu li{
         box-shadow: 1px 0px 5px black;
+        font-size: 1em;
+    }
+
+    .tartalom{
+        padding-top: 15px;
+    }
+
+    .erdekes{
+        margin-top: 10px;
     }
 
     .col-a-1 {width: 8.33%;}
@@ -146,6 +200,13 @@ footer{
     }
     .menu li{
         box-shadow: 0px 1px 5px black;
+    }
+    .tartalom{
+        padding-top: 15px;
+    }
+
+    .erdekes{
+        margin-top: 10px;
     }
 
     .col-b-1 {width: 8.33%;}
