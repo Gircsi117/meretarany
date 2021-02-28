@@ -241,6 +241,10 @@ footer{
         padding-bottom: 10px;
     }
 
+    .n-elem h2{
+        text-align: center;
+    }
+
     .col-a-1 {width: 8.33%;}
     .col-a-2 {width: 16.66%;}
     .col-a-3 {width: 25%;}
@@ -274,6 +278,10 @@ footer{
     .faj img{
         padding: 0px;
         padding-bottom: 10px;
+    }
+
+    .n-elem h2{
+        text-align: center;
     }
 
     .col-b-1 {width: 8.33%;}
