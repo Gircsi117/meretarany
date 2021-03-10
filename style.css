@@ -138,7 +138,7 @@ header h1{
 
 .fajok div p{
     text-align: center;
-    padding: 0px 10px 15px 10px;
+    padding: 5px 10px 15px 10px;
 }
 
 .fajok div img{
@@ -273,7 +273,7 @@ footer{
     }
     .fajok div p{
         text-align: left;
-        padding: 0px 10px 15px 10px;
+        padding: 5px 10px 15px 10px;
     }
     .kieg-fejlec h2{
         padding: 20px 0px;
