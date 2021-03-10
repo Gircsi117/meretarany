@@ -22,6 +22,8 @@ body{
 }
 
 .alap{
+    justify-content: space-between;
+    flex-direction: row;
     flex-wrap: wrap;
     display: flex;
     width: 95%;
@@ -69,13 +71,38 @@ header h1{
     color: rgb(226, 105, 25);
 }
 
+/*Tartalom-alap formázása*/
+.tartalom-alap{
+    justify-content: space-between;
+    display: flex;
+}
+
 /*Tartalom formázásai*/
 .tartalom{
-    background-color: blueviolet;
     min-height: 200px;
-    flex-grow: 1;
-
+    width: 75%;
     margin: 15px 10px;
+}
+
+.tartalmi-nagy-elem ul{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.tartalmi-nagy-elem{
+    padding-bottom: 20px;
+}
+
+.tartalmi-nagy-elem h2{
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: rgba(16, 63, 85, 0.7);
+}
+
+#blizzard{
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
 }
 
 /*Erdekes formázásai*/
@@ -163,6 +190,12 @@ footer{
         margin: 0px;
         box-shadow: 1px -1px black;
     }
+    .tartalom{
+        width: 100%;
+    }
+    .tartalom-alap{
+        flex-wrap: wrap;
+    }
 
     .col-a-1 {width: 8.33%;}
     .col-a-2 {width: 16.66%;}
@@ -197,6 +230,12 @@ footer{
         box-shadow: 1px -1px black;
         width: 100%;
         margin: 0px;
+    }
+    .tartalom{
+        width: 100%;
+    }
+    .tartalom-alap{
+        flex-wrap: wrap;
     }
 
     .col-b-1 {width: 8.33%;}
