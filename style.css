@@ -105,6 +105,43 @@ header h1{
     margin-top: 20px;
 }
 
+.frakcio-fejlec{
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.frakcio-fejlec img{
+    width: 15%;
+    padding: 15px;
+}
+
+.fajok{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fajok div{
+    background-color: rgb(21, 21, 80);
+    border: 1px solid black;
+    margin-bottom: 20px;
+    width: 49%;
+    
+}
+
+.fajok div h2{
+    text-align: center;
+}
+
+.fajok div p{
+    text-align: center;
+    padding: 0px 10px 15px 10px;
+}
+
+.fajok div img{
+    width: 100%;
+}
+
 /*Erdekes formázásai*/
 .erdekes{
     width: 25%;
@@ -196,6 +233,18 @@ footer{
     .tartalom-alap{
         flex-wrap: wrap;
     }
+    .fajok div{
+        width: 100%;
+    }
+    .fajok div img{
+        width: 50%;
+        padding-right: 10px;
+        float: left;
+    }
+    .fajok div p{
+        text-align: left;
+        padding: 0px 10px 15px 10px;
+    }
 
     .col-a-1 {width: 8.33%;}
     .col-a-2 {width: 16.66%;}
@@ -236,6 +285,12 @@ footer{
     }
     .tartalom-alap{
         flex-wrap: wrap;
+    }
+    .fajok div{
+        width: 100%;
+    }
+    .fajok div img{
+        width: 100%;
     }
 
     .col-b-1 {width: 8.33%;}
