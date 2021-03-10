@@ -73,17 +73,29 @@ header h1{
 .tartalom{
     background-color: blueviolet;
     min-height: 200px;
-    flex-grow: 3;
+    flex-grow: 1;
 
-    margin: 10px;
+    margin: 15px 10px;
 }
 
 /*Erdekes formázásai*/
 .erdekes{
-    flex-grow: 1;
+    width: 25%;
     background-color: rgb(23, 181, 243);
-    margin: 10px 10px 10px 0px;
+    margin: 15px 10px;
     text-align: center;
+    padding: 15px;
+}
+
+.erdekes hr{
+    margin: 15px 0px;
+}
+
+.erdekes-elem{
+    margin-bottom: 15px;
+    padding: 5px;
+    background-color: rgb(14, 117, 158);
+    border: 1px solid rgb(8, 65, 87);
 }
 
 /*Footer formázásai*/
