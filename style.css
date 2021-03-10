@@ -94,9 +94,12 @@ header h1{
 }
 
 .tartalmi-nagy-elem h2{
-    margin-bottom: 5px;
     padding: 10px;
     background-color: rgba(16, 63, 85, 0.7);
+}
+
+.tartalmi-nagy-elem p{
+    padding-top: 10px;
 }
 
 #blizzard{
@@ -140,6 +143,16 @@ header h1{
 
 .fajok div img{
     width: 100%;
+}
+
+#panda{
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+#panda img{
+    width: 50%;
+    float: left;
 }
 
 /*Erdekes formázásai*/
@@ -211,16 +224,16 @@ footer{
     .col-12 {width: 100%;}
 }
 
-@media only screen and (min-width: 500px) and (max-width: 799px){
+@media only screen and (min-width: 551px) and (max-width: 799px){
     /*Tablet*/
     header h1{
         text-align: center;
         font-size: 3.5em;
-        padding: 0px;
+        padding-left: 0px;
     }
     .menu li{
         box-shadow: 1px 0px 5px black;
-        font-size: 1em;
+        font-size: 1.2em;
     }
     .erdekes{
         width: 100%;
@@ -260,20 +273,16 @@ footer{
     .col-a-12 {width: 100%;}
 }
 
-@media only screen and (max-width: 499px){
+@media only screen and (max-width: 550px){
     /*Telefon*/
     header h1{
         text-align: center;
-        font-size: 2.5em;
+        font-size: 2.8em;
         padding-left: 0px;
     }
     .menu li{
         box-shadow: 1px 0px 5px black;
-        font-size: 1em;
-    }
-    .menu li{
-        box-shadow: 1px 0px 5px black;
-        font-size: 1em;
+        font-size: 1.4em;
     }
     .erdekes{
         box-shadow: 1px -1px black;
@@ -290,6 +299,9 @@ footer{
         width: 100%;
     }
     .fajok div img{
+        width: 100%;
+    }
+    #panda img{
         width: 100%;
     }
 
